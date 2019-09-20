@@ -22,6 +22,11 @@ test:
 
 production:
   adapter: postgresql
+  database: dd110sa6s72sgf
+  username: kcfkxfljuxcxwo
+  password: a9201b1f19d9922affb8b56b6cc5d46e03fe0f50d83675f1afed60ca5d3803b6
+  host: ec2-50-16-225-96.compute-1.amazonaws.com
+  port: 5432
   encoding: unicode
   pool: 5
   <<: *default
